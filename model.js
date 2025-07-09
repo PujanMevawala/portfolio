@@ -3,6 +3,7 @@ import fetch from 'node-fetch';
 import cors from 'cors';
 import fs from 'fs';
 import path from 'path';
+import 'dotenv/config';
 import * as pdfjsLib from 'pdfjs-dist/legacy/build/pdf.mjs';
 
 const app = express();
